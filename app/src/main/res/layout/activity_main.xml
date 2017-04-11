@@ -6,11 +6,13 @@
     tools:context="com.example.android.trivia.MainActivity">
 
     <LinearLayout
+        android:id="@+id/trivia_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/question1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -68,6 +70,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/question2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -95,6 +98,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/question3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -143,6 +147,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/question4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -198,6 +203,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/question5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -253,10 +259,39 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/check_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/checkButton"
             android:onClick="calculateScore"
             android:padding="@dimen/medium"/>
+
+        <LinearLayout
+            android:id="@+id/result_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/medium"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/h1"/>
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/h2"/>
+
+            <Button
+                android:id="@+id/try_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/try_again"
+                android:onClick="reset"/>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

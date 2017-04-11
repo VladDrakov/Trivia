@@ -2,7 +2,7 @@
     <string name="app_name">Trivia</string>
     <string name="checkButton">CHECK</string>
     <string name="question_1">Question 1</string>
-    <string name="foundation_text_view">Who founded the \'Free Software Foundation\'?</string>
+    <string name="foundation_text_view">Who founded the 'Free Software Foundation'?</string>
     <string name="bill_gates">Bill Gates</string>
     <string name="linus_torvalds">Linus Torvalds</string>
     <string name="richard_stallman">Richard Stallman</string>
@@ -25,6 +25,7 @@
     <string name="megadeth">Dread and fugitive mind (Megadeth)</string>
     <string name="prowler_iron_maiden">Prowler (Iron Maiden)</string>
     <string name="daisy_bell">Daisy Bell (Harry Dacre)</string>
-    <string name="pyhton">What is the origin of the Python scripting language\'s name?</string>
+    <string name="pyhton">What is the origin of the Python scripting language's name?</string>
     <string name="song">What was the first song ever sung by a computer?</string>
+    <string name="try_again">TRY AGAIN</string>
 </resources>
