@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Trivia</string>
+    <string name="checkButton">CHECK</string>
+    <string name="question_1">Question 1</string>
+    <string name="foundation_text_view">Who founded the \'Free Software Foundation\'?</string>
+    <string name="bill_gates">Bill Gates</string>
+    <string name="linus_torvalds">Linus Torvalds</string>
+    <string name="richard_stallman">Richard Stallman</string>
+    <string name="steve_wozniak">Steve Wozniak</string>
+    <string name="mascot">What is the name of the Java mascot?</string>
+    <string name="question_2">Question 2</string>
+    <string name="question_3">Question 3</string>
+    <string name="keywords">Which one are Java keywords?</string>
+    <string name="if_tv">if</string>
+    <string name="await">await</string>
+    <string name="super_tv">super</string>
+    <string name="instanceof_tv">instanceof</string>
+    <string name="question_4">Question 4</string>
+    <string name="python">The company that developed it wanted a name that explanationressed its dynamic nature and power as a scripting language.</string>
+    <string name="cool">The creator thought it was a cool name.</string>
+    <string name="monty_python">It was named after Monty Python\'s Flying Circus.</string>
+    <string name="plato">It was named after Python of Aenus, a student of Plato.</string>
+    <string name="question_5">Question 5</string>
+    <string name="pink_floyd">Another brick in the wall part 2 (Pink Floyd)</string>
+    <string name="megadeth">Dread and fugitive mind (Megadeth)</string>
+    <string name="prowler_iron_maiden">Prowler (Iron Maiden)</string>
+    <string name="daisy_bell">Daisy Bell (Harry Dacre)</string>
+    <string name="pyhton">What is the origin of the Python scripting language\'s name?</string>
+    <string name="song">What was the first song ever sung by a computer?</string>
 </resources>

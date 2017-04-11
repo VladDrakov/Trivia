@@ -11,54 +11,57 @@
         android:orientation="vertical">
 
         <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/medium">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Question 1"
-                android:textSize="24sp"
+                android:text="@string/question_1"
+                android:textSize="@dimen/h1"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Who founded the \'Free Software Foundation\'?"
-                android:textSize="16sp"/>
+                android:text="@string/foundation_text_view"
+                android:textSize="@dimen/h2"/>
 
             <RadioGroup
+                android:id="@+id/radioGroupFoundation"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="@dimen/small">
 
                 <RadioButton
-                    android:id="@+id/radioButton"
+                    android:id="@+id/radioButtonGates"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Bill Gates" />
+                    android:text="@string/bill_gates" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2"
+                    android:id="@+id/radioButtonLinus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Linus Torvalds" />
+                    android:text="@string/linus_torvalds" />
 
                 <RadioButton
-                    android:id="@+id/radioButton3"
+                    android:id="@+id/radioButtonStallman"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Richard Stallman" />
+                    android:text="@string/richard_stallman" />
 
                 <RadioButton
-                    android:id="@+id/radioButton4"
+                    android:id="@+id/radioButtonWozniak"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Steve Wozniak" />
+                    android:text="@string/steve_wozniak" />
             </RadioGroup>
 
 
@@ -67,173 +70,193 @@
         <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+            android:padding="@dimen/medium">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Question 2"
-                android:textSize="24sp"
+                android:text="@string/question_2"
+                android:textSize="@dimen/h1"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="What is the name of the Java mascot?"/>
+                android:text="@string/mascot"
+                android:textSize="@dimen/h2"/>
 
             <EditText
+                android:id="@+id/mascot"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:padding="@dimen/small"/>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="@dimen/medium">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Question 3"
-                android:textSize="24sp"
+                android:text="@string/question_3"
+                android:textSize="@dimen/h1"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Which one are Java keywords?"/>
+                android:text="@string/keywords"
+                android:textSize="@dimen/h2"/>
 
             <CheckBox
-                android:id="@+id/checkBox"
+                android:id="@+id/checkBoxIf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="if" />
+                android:text="@string/if_tv"
+                android:paddingLeft="@dimen/small"/>
 
             <CheckBox
-                android:id="@+id/checkBox2"
+                android:id="@+id/checkBoxAwait"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="await" />
+                android:text="@string/await"
+                android:paddingLeft="@dimen/small" />
 
             <CheckBox
-                android:id="@+id/checkBox3"
+                android:id="@+id/checkBoxSuper"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="super" />
+                android:text="@string/super_tv"
+                android:paddingLeft="@dimen/small" />
 
             <CheckBox
-                android:id="@+id/checkBox4"
+                android:id="@+id/checkBoxInstance"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="instanceof" />
+                android:text="@string/instanceof_tv"
+                android:paddingLeft="@dimen/small" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="@dimen/medium">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Question 4"
-                android:textSize="24sp"
+                android:text="@string/question_4"
+                android:textSize="@dimen/h1"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="What is the origin of the Python scripting language's name?"/>
+                android:text="@string/pyhton"
+                android:textSize="@dimen/h2"/>
 
             <RadioGroup
+                android:id="@+id/radioGroupPython"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="@dimen/small">
 
                 <RadioButton
-                    android:id="@+id/radioButton2_1"
+                    android:id="@+id/radioButtonPythonMarketing"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="The company that developed it wanted a name that explanationressed its dynamic nature and power as a scripting language." />
+                    android:text="@string/python" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2_2"
+                    android:id="@+id/radioButtonPythonCool"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="The creator thought it was a cool name." />
+                    android:text="@string/cool" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2_3"
+                    android:id="@+id/radioButtonMontyPython"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="It was named after Monty Python's Flying Circus." />
+                    android:text="@string/monty_python" />
 
                 <RadioButton
-                    android:id="@+id/radioButton2_4"
+                    android:id="@+id/radioButtonPythonPlato"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="It was named after Python of Aenus, a student of Plato." />
+                    android:text="@string/plato" />
             </RadioGroup>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="@dimen/medium">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Question 5"
-                android:textSize="24sp"
+                android:text="@string/question_5"
+                android:textSize="@dimen/h1"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="What was the first song ever sung by a computer?"/>
+                android:text="@string/song"
+                android:textSize="@dimen/h2"/>
 
             <RadioGroup
+                android:id="@+id/radioGroupSong"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:padding="@dimen/small">
 
                 <RadioButton
-                    android:id="@+id/radioButton3_1"
+                    android:id="@+id/radioButtonPF"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Another brick in the wall part 2 (Pink Floyd)" />
+                    android:text="@string/pink_floyd" />
 
                 <RadioButton
-                    android:id="@+id/radioButton3_2"
+                    android:id="@+id/radioButtonMega"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Dread and fugitive mind (Megadeth)" />
+                    android:text="@string/megadeth" />
 
                 <RadioButton
-                    android:id="@+id/radioButton3_3"
+                    android:id="@+id/radioButtonMaiden"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Prowler (Iron Maiden)" />
+                    android:text="@string/prowler_iron_maiden" />
 
                 <RadioButton
-                    android:id="@+id/radioButton3_4"
+                    android:id="@+id/radioButtonDaisy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Daisy Bell (Harry Dacre)" />
+                    android:text="@string/daisy_bell" />
             </RadioGroup>
         </LinearLayout>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="CHECK"/>
+            android:text="@string/checkButton"
+            android:onClick="calculateScore"
+            android:padding="@dimen/medium"/>
     </LinearLayout>
 </ScrollView>
